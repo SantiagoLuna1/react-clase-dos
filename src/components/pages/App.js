@@ -8,6 +8,7 @@ import FocusableInput from './FocusableInput';
 import UglyClass from './UglyClass';
 import FancyButton from '../small/FancyButton';
 import TicTacToe from './TicTacToe';
+import Memotest from './Memotest';
 
 const pages = {
   home: {
@@ -37,6 +38,10 @@ const pages = {
   ticTacToe: {
     name: 'Tic Tac Toe',
     component: TicTacToe,
+  },
+  Memotest: {
+    name: 'Memotest',
+    component: Memotest,
   },
 };
 
